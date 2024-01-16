@@ -3,6 +3,7 @@ import DropDownBtn from './components/DropDownBtn';
 import Button from './components/Button';
 import Container from './components/Container';
 import CardNoticia from './components/CardNoticia';
+import Main from './Main';
 
 const App = () => {
 
@@ -46,6 +47,9 @@ const App = () => {
                             description="Carga de imagen"
                             button={{ label: 'Click Here', url: '/#' }}
                         />
+                    </div>
+                    <div className="col-md-12">
+                        <Main />
                     </div>
                 </div>
             </div>
